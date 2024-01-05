@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #conntainer1{
+            display: flex;
+            flex-direction: column;
+            background-color: burlywood;
+            height: 200px;
+            width: 150px;
+            position: absolute;
+            left: 30%;
+        }
+    </style>
+</head>
+<body>
+    <h1>doubt session</h1>
+
+    <div id="conntainer">
+        <h3>cm to meter</h3>
+        <input type="text" id="A1">
+        <button onclick="convertor()">convert</button>
+        <div id="result"></div>
+    </div>
+
+    <div id="conntainer1">
+        <h3>centimeter</h3>
+        <input type="text" id="A2">
+        <button onclick="main('mm')">milli meter</button>
+        <button onclick="main('m')">meter</button>
+        <button onclick="main('km')">kilometer meter</button>
+    </div>
+    
+    <script src="doubt.js"></script>
+</body>
+</html>

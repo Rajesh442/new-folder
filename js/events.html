@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="events.js" defer ></script>
+</head>
+<body>
+    <h1 onmouseover="mouse()" id="h1"  onmouseleave="mouseremove()">events</h1>
+    <a href="https://www.google.com" onmouseover="hyper()"> Google</a>
+    <p ondblclick="double()" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur odio est aliquid eveniet rem et quas, nam corporis ex sunt corrupti eius praesentium aliquam nesciunt. Iusto saepe ea eos ducimus.</p>
+    <input type="text" oninput="inputText()"  id="input">
+    
+    <button onkeydown="down()" onkeyup="up()" id="button">click here</button>
+    <h2>key press</h2>
+
+
+    <input type="text" id="result">
+    <input type="button" onclick="result.value=result.value+1" value="1">
+    <input type="button" onclick="result.value=result.value+2" value="2">
+    <input type="button" onclick="result.value=result.value+3" value="3">
+    <input type="button" onclick="del()" value="del">
+
+    
+</body>
+</html>
